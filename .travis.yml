@@ -6,5 +6,5 @@ matrix:
       compiler:
 	 - gcc
       script:  
-	 - gcc -o3 rollover rollover.c 
-	 - ./rollover
+	 - gcc -o3 Rollover Rollover.c 
+	 - ./Rollover
