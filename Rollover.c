@@ -37,7 +37,7 @@ void pin_dir()				//pin dirction intiliztion
 
 int main()
 {
-   uint16_t ADC_VALUE;
+   int ADC_VALUE;
   adc_int();
   igntion_int();
   while(1)
