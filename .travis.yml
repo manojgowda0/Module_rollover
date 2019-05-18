@@ -1,10 +1,10 @@
 # Module_rollover
 matrix:
-    include:    
-	- language: c  
-	  sudo: false # only for faster builds  
-	  compiler:
-	     - gcc
-	  script:  
-	    - gcc -o3 rollover rollover.c 
-	    - ./rollover
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+	- gcc
+      script:  
+	- gcc -o3 rollover rollover.c 
+	- ./rollover
