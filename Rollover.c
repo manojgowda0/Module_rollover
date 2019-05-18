@@ -9,7 +9,7 @@ struct
 {
  volatile unsigned int Flag_ISR1:1; 
 }Flag_Bit;
-
+int ADC_VALUE;
 void adc_int()			//adc intiliztion
 {
    ADMUX|=(1<<MUX0);		//connect two pots to A1 and A2
@@ -37,7 +37,7 @@ void pin_dir()				//pin dirction intiliztion
 
 int main()
 {
-   int ADC_VALUE;
+   
   adc_int();
   igntion_int();
   while(1)
